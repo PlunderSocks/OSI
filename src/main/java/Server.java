@@ -9,7 +9,7 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Started server");
-        int port = 8081;
+        int port = "8081";
 
         try (
                 ServerSocket serverSocket = new ServerSocket(port); // порт можете выбрать любой в доступном диапазоне 0-65536.
